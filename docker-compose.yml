@@ -1,0 +1,33 @@
+services:
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "5127:8080"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_URLS=http://+:8080
+      - ConnectionStrings__DefaultConnection=Data Source=/app/data/thermostat.db
+    volumes:
+      - api-data:/app/data
+    networks:
+      - thermostat-network
+
+  client:
+    build:
+      context: ./client
+      dockerfile: Dockerfile
+    ports:
+      - "5173:80"
+    depends_on:
+      - api
+    networks:
+      - thermostat-network
+
+volumes:
+  api-data:
+
+networks:
+  thermostat-network:
+    driver: bridge
