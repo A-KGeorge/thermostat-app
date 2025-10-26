@@ -92,7 +92,7 @@ The fastest way to run the entire application:
 
 # Clone the repository
 
-git clone https://github.com/a-kgeorge/thermostat-app.git
+git clone https://github.com/A-KGeorge/thermostat-app.git
 cd thermostat-app
 
 # Start both backend and frontend
