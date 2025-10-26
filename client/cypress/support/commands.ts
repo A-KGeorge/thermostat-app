@@ -18,7 +18,9 @@ Cypress.Commands.add("addReading", (temperature: number) => {
   cy.wait("@createReading");
 });
 
+// Extend Cypress chainable interface
 declare global {
+  // eslint-disable-next-line @typescript-eslint/no-namespace
   namespace Cypress {
     interface Chainable {
       addReading(temperature: number): Chainable<void>;

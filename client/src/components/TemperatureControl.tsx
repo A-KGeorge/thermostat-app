@@ -123,6 +123,7 @@ export default function TemperatureControl({
         window.removeEventListener("touchend", handleGlobalMouseUp);
       };
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [isDragging]);
 
   return (

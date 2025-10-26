@@ -4,17 +4,17 @@ A modern, full-stack thermostat application built with .NET 9.0 and React 19, fe
 
 ## 📋 Table of Contents
 
-- [Features](#features)
-- [Tech Stack](#tech-stack)
-- [Prerequisites](#prerequisites)
-- [Getting Started](#getting-started)
+- [Features](#-features)
+- [Tech Stack](#-tech-stack)
+- [Prerequisites](#-prerequisites)
+- [Getting Started](#-getting-started)
   - [Quick Start with Docker](#quick-start-with-docker)
   - [Local Development Setup](#local-development-setup)
-- [Project Structure](#project-structure)
-- [API Documentation](#api-documentation)
-- [Testing](#testing)
-- [CI/CD Pipeline](#cicd-pipeline)
-- [Architecture](#architecture)
+- [Project Structure](#-project-structure)
+- [API Documentation](#-api-documentation)
+- [Testing](#-testing)
+- [CI/CD Pipeline](#-cicd-pipeline)
+- [Architecture](#-architecture)
 
 ## ✨ Features
 
